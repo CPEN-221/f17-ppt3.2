@@ -46,7 +46,7 @@ Here are the essential operations that a `BagOString` supports:
 	1. Add a given `String`
 	2. Remove one occurrence of a given `String`
 
-3.**Observers**
+3. **Observers**
 	1. Check if a `String` is in the bag
 	2. Return a count of the number of occurrences of a `String` in the bag
 	3. Return a count of the number of occurrences of an alphabet in the bag (other characters can be ignored)
