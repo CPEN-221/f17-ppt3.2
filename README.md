@@ -63,7 +63,7 @@ BagOString()
 BagOString(String[] seedArray)
 
 // add s to the BagOString
-add(String s)
+void add(String s)
 
 // remove s from the BagOString
 // if s does not exist in the Bag then do nothing
