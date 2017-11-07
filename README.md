@@ -41,15 +41,17 @@ Here are the essential operations that a `BagOString` supports:
 1. **Creators**
 	1. Create an empty `BagOString`
 	2. Create a `BagOString` using an array of `Strings`s as initial values
+
 2. **Mutators**
 	1. Add a given `String`
 	2. Remove one occurrence of a given `String`
-	 **Observers**
+
+3.**Observers**
 	1. Check if a `String` is in the bag
 	2. Return a count of the number of occurrences of a `String` in the bag
 	3. Return a count of the number of occurrences of an alphabet in the bag (other characters can be ignored)
 	4. Return the weight of the bag (weight was defined earlier)
-	5. Verify equality: two `BagOString` are equal if and only if each alphabet occurs the same number of times in each bag
+	5. Verify equality: two `BagOString` are equal if and only if each alphabet occurs the same number of times in each bag (example: a bag with "frodo" is equal to a bag with "for" and "do" because the alphabet counts are the same even if one has more strings than the other)
 	6. A suitable hash code operation
 
 ### Specifications
